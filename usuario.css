@@ -1,3 +1,9 @@
+
+body{
+    background-image: url("https://static.vecteezy.com/system/resources/thumbnails/007/448/022/small/cybersecurity-privacy-protection-concept-information-security-and-encryption-secure-access-to-user-s-personal-information-secure-internet-access-cybersecurity-photo.jpg");
+    background-size: cover;  /* Para que la imagen cubra todo el espacio del div */
+    background-position: center;
+}
 p {
     border: 1px solid black;  /* Bordes de 1px de ancho, color negro */
     padding: 10px;            /* Espaciado interno */
@@ -6,7 +12,7 @@ p {
     border-radius: 5px;
     width: 500px;
     color: red; 
-    background-color: pink;
+    background-color: rgb(245, 180, 193);
     display: flex;
     justify-content: center; /* Centrar horizontalmente */
     flex-direction: column;  /* Opcional, para que se apilen verticalmente */
@@ -17,8 +23,8 @@ p:hover{
     background-color: aqua;
 }
 h1{
-    color: brown;
-    background-color: bisque;
+    color: rgb(23, 110, 240);
+    background-color: rgb(196, 255, 255);
     border: 1px solid black;  /* Bordes de 1px de ancho, color negro */
     padding: 50px;            /* Espaciado interno */
     margin: 10px;             /* Espaciado externo */
