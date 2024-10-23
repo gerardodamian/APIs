@@ -5,14 +5,14 @@ body{
     background-position: center;
 }
 p {
-    border: 1px solid black;  /* Bordes de 1px de ancho, color negro */
-    padding: 10px;            /* Espaciado interno */
+    border: 2px solid rgb(5, 40, 238);  /* Bordes de 1px de ancho, color negro */
+    padding: 17px;            /* Espaciado interno */
     margin: 10px; 
     margin-left: 600px;            /* Espaciado externo */
     border-radius: 5px;
     width: 500px;
     color: red; 
-    background-color: rgb(245, 180, 193);
+    background-color: rgb(79, 198, 245);
     display: flex;
     justify-content: center; /* Centrar horizontalmente */
     flex-direction: column;  /* Opcional, para que se apilen verticalmente */
@@ -24,10 +24,11 @@ p:hover{
 }
 h1{
     color: rgb(23, 110, 240);
+    font-size: 60px;
     background-color: rgb(196, 255, 255);
-    border: 1px solid black;  /* Bordes de 1px de ancho, color negro */
+    border: 2px solid rgb(5, 40, 238);  /* Bordes de 1px de ancho, color negro */
     padding: 50px;            /* Espaciado interno */
-    margin: 10px;             /* Espaciado externo */
+    margin: 20px;             /* Espaciado externo */
     border-radius: 5px; 
     display: flex;
     justify-content: center; /* Centrar horizontalmente */
