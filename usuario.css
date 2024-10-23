@@ -1,0 +1,30 @@
+p {
+    border: 1px solid black;  /* Bordes de 1px de ancho, color negro */
+    padding: 10px;            /* Espaciado interno */
+    margin: 10px; 
+    margin-left: 600px;            /* Espaciado externo */
+    border-radius: 5px;
+    width: 500px;
+    color: red; 
+    background-color: pink;
+    display: flex;
+    justify-content: center; /* Centrar horizontalmente */
+    flex-direction: column;  /* Opcional, para que se apilen verticalmente */
+    align-items: center;    
+}
+p:hover{
+    color: blue;
+    background-color: aqua;
+}
+h1{
+    color: brown;
+    background-color: bisque;
+    border: 1px solid black;  /* Bordes de 1px de ancho, color negro */
+    padding: 50px;            /* Espaciado interno */
+    margin: 10px;             /* Espaciado externo */
+    border-radius: 5px; 
+    display: flex;
+    justify-content: center; /* Centrar horizontalmente */
+    flex-direction: column;  /* Opcional, para que se apilen verticalmente */
+    align-items: center;
+}
